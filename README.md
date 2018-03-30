@@ -1,5 +1,7 @@
 Andrew Dale
+
 Assignment 2: CSCI2020U Soft. Dev & Int
+
 T/A: Martin "I'm actually Pikachu" Tuzim 
 
 
