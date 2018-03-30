@@ -8,10 +8,13 @@ T/A: Martin "I'm actually Pikachu" Tuzim
 A majority of cases have been handled, however;
 
 Known Issues (save you some time Pokemaster):
+	
 	- When no file is highlighted and either of the buttons are pressed an indexoutofbounds exception
 	occurs. 
+	
 	- When pressing the upload button while a file on the server side has been selected an indexoutofbounds exception
 	occurs. 
+	
 	- I really enjoy indexoutofbounds exceptions. 
 
 
