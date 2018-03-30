@@ -1,0 +1,48 @@
+Basic Instructions:
+
+Utilized IntelliJ to supply two executable .jar files. Once you have either 
+pulled or downloaded the zip(my favourite). To use the program(s) execute the
+ "server" jar first and then the "client" jar. 
+
+As with Assignment 1, once you've launched both the server and the client and 
+have time to appreciate the beauty of the masterfully crafted UI you'll notice 
+that two separate windows have appeared before you;
+
+	- The Server stage:
+		- A masterclass button labelled "Kill Me" which will "kill" the server
+		- If close requested (onCloseRequested) the server will also be terminated
+		- This stage is ran on a different thread than the core functionality 
+		- While totally unnecessary, this ensures that no mishaps occur with leaving
+		the server running in the background. 
+		
+	- The Client stage:
+		- The two main buttons, "Upload", "Download" -- up and down, get it? Get it????
+		- Anchored to the right will be a "Refresh" button which will close and reopen
+		the stage
+		- The two tables, "Local Files", "Server Files" which contain the core 
+		of assignment (files stored locally* and the "server files").
+		- At the bottom of the program are the two buttons Choose Dir.. and Exit
+			- *Choose Dir will allow the user to select a new directory 
+			and populate the table with only .txt and .csv files contained within
+			the selected directory. 
+		- Exit simply exits the program.
+		- Below these two buttons are an uneditable textfield which will be filled upon
+		selecting a new directory.
+		
+		
+		** The initial directory merely contains a few files to initally populate the table
+		in case you neglect my hardwork in developing a Choose Dir button and just want
+		the basic functionality. **
+		
+		
+		
+		
+TL;DR:
+
+1. Get Repo
+2. DClick Server
+3. DClick Client
+4. Get files as necessary, move to server etc
+5. Change directory if needed and follow previous step
+6. Hit Exit on Client and "Kill Me" on the Server (or vice versa)
+7. Go on with your life
